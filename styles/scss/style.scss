@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.bgContainer{
+    width: 100%;
+    height: 28vh;
+    background-color: red;
+}
+
+#pfp{
+    border: solid 5px #C70BDA;
+    border-radius: 40px;
+    position: absolute;
+    width: 15rem;
+    height: 20rem;
+    z-index: 10;
+}
+
+#pfp2 {
+    border: solid 5px #C70BDA;
+    border-radius: 40px;
+    position: absolute;
+    height: 20rem;
+    width: 15rem;
+}
