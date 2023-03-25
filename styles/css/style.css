@@ -37,7 +37,7 @@ body {
 }
 .flexContainer .bottomContainers #left p {
   margin: 5%;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 .flexContainer .bottomContainers #middle {
   height: 45vh;
@@ -59,10 +59,16 @@ body {
   text-align: center;
 }
 
+.flexContainer .bottomContainers #right p{
+  margin: 5%;
+  font-size: 1.5rem;
+}
+
 .pfp {
   border-right: 4px solid #00E8FC;
   width: 15%;
   height: 100%;
+  object-fit: cover;
 }
 
 @font-face {
