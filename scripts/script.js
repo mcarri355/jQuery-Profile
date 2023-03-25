@@ -1,5 +1,6 @@
 // On Load Function that creates the expanding effect on the bottom containers
 $(window).on('load',function(){
+    alert('hover over and click all boxes');
     $('#left').slideUp(0).slideDown(2000);
     $('#middle').slideUp(0).slideDown(2000);
     $('#right').slideUp(0).slideDown(2000);
