@@ -1,9 +1,22 @@
 // On Load Function that has
 $(window).on('load',function(){
-    $('#pfp').slideDown(2000)
+    $('#left').slideUp(0).slideDown(2000);
+    $('#middle').slideUp(0).slideDown(2000);
+    $('#right').slideUp(0).slideDown(2000);
 })
 
-// Changes Picture of Me to Picture of Smiling Monkey
-$('#pfp').on('click', function(){
-    $(this).fadeOut(2500).fadeIn(2500);;
+$('#left').on('click', function(){
+    $('.bottomContainers').css('flex-direction', 'row-reverse')
+})
+
+$('#middle').on('click', function(){
+    $('.pfp').clone().insertAfter('.bottomContainers');
+});
+
+$('#right').on('click', function(){
+
+})
+
+$('span').on('click', function(){
+    $(this).text('Who Am I?')
 })
